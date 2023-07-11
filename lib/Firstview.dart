@@ -4,12 +4,21 @@ import 'package:flutter_app/tab/review.dart';
 import 'package:flutter_app/tab/friend.dart';
 import 'package:flutter_app/tab/mypage.dart';
 
+<<<<<<< HEAD
 class Firstview extends StatefulWidget {
   @override
   State<Firstview> createState() => _TestViewState();
 }
 
 class _TestViewState extends State<Firstview>
+=======
+class TestView extends StatefulWidget {
+  @override
+  State<TestView> createState() => _TestViewState();
+}
+
+class _TestViewState extends State<TestView>
+>>>>>>> ae358f2e8baa8abbf20c4b35e9bc613ff6f17140
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
   int _selectedIndex = 0;
@@ -48,7 +57,10 @@ class _TestViewState extends State<Firstview>
           Friend(),
           MyPage(),
         ],
+<<<<<<< HEAD
 
+=======
+>>>>>>> ae358f2e8baa8abbf20c4b35e9bc613ff6f17140
       ),
       bottomNavigationBar:SizedBox(
         child: TabBar(
