@@ -12,7 +12,6 @@ class Review extends StatelessWidget{
       body: const Center(
         child: Text('Page2'),
       ),
-      bottomNavigationBar:Bottom() ,
     );
   }
 }

@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/tab/map.dart';
-import 'package:flutter_app/tab/review.dart';
-import 'package:flutter_app/tab/friend.dart';
-import 'package:flutter_app/tab/mypage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'Firstview.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -26,11 +23,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       routes: {
-        '/map':(context)=>Map(),
-        '/review':(context)=>Review(),
-        '/friend':(context)=>Friend(),
-        '/mypage':(context)=>MyPage(),
-        '/':(context)=> Map(),
+        '/':(context)=> Firstview(),
       },
       initialRoute: '/',
     );

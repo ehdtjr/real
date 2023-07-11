@@ -3,6 +3,7 @@ import 'package:flutter_app/menu_bottom.dart';
 import 'package:flutter_app/Area/seoul.dart';
 import 'package:flutter_app/Area/incheon.dart';
 import '../test.dart';
+import '../Firstview.dart';
 
 class Map extends StatelessWidget {
   @override
@@ -32,11 +33,8 @@ class Map extends StatelessWidget {
             );
           },
               child: Text('인천')),
-
-
         ],
       )),
-      bottomNavigationBar:Bottom() ,
     );
   }
 }
