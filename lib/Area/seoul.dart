@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../menu_bottom.dart';
 
 class Seoul extends StatelessWidget {
   @override

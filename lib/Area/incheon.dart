@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../menu_bottom.dart';
 
 class Incheon extends StatelessWidget {
   @override
@@ -17,9 +16,7 @@ class Incheon extends StatelessWidget {
 
               }, child: Text('go to first screen'))
             ],
-
           ),
-
         )
     );
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/menu_bottom.dart';
+import '../riview/riview_write.dart';
+import '../test.dart';
 
 class MyPage extends StatelessWidget {
   @override
@@ -7,7 +8,9 @@ class MyPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xffa6feff),
       body: Center(
-        child: Text('Page4'),
+        child: Center(
+          child: riview_write(),
+        ),
       ),
     );
   }

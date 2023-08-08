@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/menu_bottom.dart';
 
 class Friend extends StatelessWidget {
   @override
