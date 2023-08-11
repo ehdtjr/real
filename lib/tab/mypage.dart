@@ -6,10 +6,10 @@ class MyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffa6feff),
+      backgroundColor: Colors.lightBlueAccent,
       body: Center(
         child: Center(
-          child: riview_write(),
+          child: FormScreen(title: 'riview_write',),
         ),
       ),
     );

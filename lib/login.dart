@@ -83,7 +83,7 @@ class _LogInState extends State<LogIn> {
                                             context,
                                             MaterialPageRoute(
                                                 builder: (BuildContext context) =>
-                                                    riview_write()));
+                                                    FormScreen(title: 'riview_write',)));
                                       }
                                       else if (id.text == 'hoseo@naver.com' && password.text != '1234') {
                                         showSnackBar(context, Text('Wrong password'));
