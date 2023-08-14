@@ -19,7 +19,7 @@ class _TabBarScreenState extends State<TabBarScreen>
     vsync: this,
     initialIndex: 0,
 
-    /// 탭 변경 애니메이션 시간
+    // 탭 변경 애니메이션 시간
     animationDuration: const Duration(milliseconds: 00),
   );
 
