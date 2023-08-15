@@ -98,7 +98,6 @@ class RatingBar extends StatelessWidget {
     }
 
     return Row(
-
       children: _starList,
     );
   }
