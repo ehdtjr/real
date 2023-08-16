@@ -18,6 +18,7 @@ class Album { //php에 지정된 타입들로 선언해줘야함.
       data1: json['data1'],
       data2: json['data2'],
       data3: json['data3'],
+
     );
   }
 }
